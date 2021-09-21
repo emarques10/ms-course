@@ -1,7 +1,7 @@
 package com.emarques.hrpayroll.resources;
 
 import com.emarques.hrpayroll.entities.Payment;
-import com.emarques.hrpayroll.entities.service.PaymentService;
+import com.emarques.hrpayroll.services.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
